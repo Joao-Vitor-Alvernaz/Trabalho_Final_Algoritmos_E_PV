@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|c:\\users\\vitor\\desktop\\programacao\\atividade_final\\forms\\form_votacao_interativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|solutionrelative:forms\\form_votacao_interativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|c:\\users\\vitor\\desktop\\programacao\\atividade_final\\forms\\form_votacao_interativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|solutionrelative:forms\\form_votacao_interativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\models\\candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|solutionrelative:models\\candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\forms\\form_cadastrar_candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|solutionrelative:forms\\form_cadastrar_candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\models\\candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725BF15D-366F-4D1F-8226-0D047755E605}|Atividade_Final.csproj|solutionrelative:models\\candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form_Cadastrar_Candidato.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Cadastrar_Candidato.cs",
               "RelativeDocumentMoniker": "Forms\\Form_Cadastrar_Candidato.cs",
@@ -47,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -61,40 +69,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBEAAAAiAAAAAAAAAA==",
+              "Title": "Form_Cadastrar_Candidato.cs",
+              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Cadastrar_Candidato.cs",
+              "RelativeDocumentMoniker": "Forms\\Form_Cadastrar_Candidato.cs",
+              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Cadastrar_Candidato.cs",
+              "RelativeToolTip": "Forms\\Form_Cadastrar_Candidato.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwFIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T01:40:17.133Z",
+              "WhenOpened": "2025-11-17T13:59:06.078Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Form_Votacao_Interativa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Votacao_Interativa.cs",
+              "RelativeDocumentMoniker": "Forms\\Form_Votacao_Interativa.cs",
+              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Votacao_Interativa.cs [Design]",
+              "RelativeToolTip": "Forms\\Form_Votacao_Interativa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:04:35.255Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_Votacao_Interativa.cs",
+              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Votacao_Interativa.cs",
+              "RelativeDocumentMoniker": "Forms\\Form_Votacao_Interativa.cs",
+              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Votacao_Interativa.cs",
+              "RelativeToolTip": "Forms\\Form_Votacao_Interativa.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswDcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:06:01.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Candidato.cs",
               "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Models\\Candidato.cs",
               "RelativeDocumentMoniker": "Models\\Candidato.cs",
               "ToolTip": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Models\\Candidato.cs",
               "RelativeToolTip": "Models\\Candidato.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T14:27:17.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form_Cadastrar_Candidato.cs",
-              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Cadastrar_Candidato.cs",
-              "RelativeDocumentMoniker": "Forms\\Form_Cadastrar_Candidato.cs",
-              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Forms\\Form_Cadastrar_Candidato.cs",
-              "RelativeToolTip": "Forms\\Form_Cadastrar_Candidato.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowCIAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T13:59:06.078Z",
+              "WhenOpened": "2025-11-18T01:40:17.133Z",
               "EditorCaption": ""
             }
           ]

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Atividade_Final.Models;
+using ClosedXML.Excel;
 
 namespace Atividade_Final.Forms
 {
@@ -17,10 +18,30 @@ namespace Atividade_Final.Forms
         public Form_Cadastrar_Candidato()
         {
             InitializeComponent();
+            var pasta = new XLWorkbook("C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\candidatos.xlsx");
+            var plan1 = pasta.Worksheet(1);
+            int qtdLinhas = plan1.RowsUsed().Count();
+            int linhaLivre = qtdLinhas + 1;
+
+            for(int i = 2;  i <= qtdLinhas; i++)
+            {
+                Candidato candidato = new Candidato();
+                candidato.nome = plan1.Cell(i, 3).Value.ToString();
+                candidato.apelido = plan1.Cell(i, 4).Value.ToString();
+                candidato.partido = plan1.Cell(i, 5).Value.ToString();
+                candidato.numero = Convert.ToInt32(plan1.Cell(i, 2).Value.ToString());
+                lista_Candidato.Add(candidato);
+                Atualizar_Lista();
+            }
         }
 
         private void bt_Salvar_Click(object sender, EventArgs e)
         {
+            var pasta = new XLWorkbook("C:\\Users\\Vitor\\Desktop\\Programacao\\Atividade_Final\\candidatos.xlsx");
+            var plan1 = pasta.Worksheet(1);
+            int qtdLinhas = plan1.RowsUsed().Count();
+            int linhaLivre = qtdLinhas + 1;
+
             Candidato candidato = new Candidato();
             candidato.nome = txt_Nome_Completo.Text.ToString();
             candidato.apelido = txt_Apelido.Text.ToString();
@@ -36,6 +57,13 @@ namespace Atividade_Final.Forms
             }
             else
             {
+                plan1.Cell(linhaLivre, 1).Value = qtdLinhas.ToString();
+                plan1.Cell(linhaLivre, 2).Value = candidato.numero.ToString();
+                plan1.Cell(linhaLivre, 3).Value = candidato.nome.ToString();
+                plan1.Cell(linhaLivre, 4).Value = candidato.apelido.ToString();
+                plan1.Cell(linhaLivre, 5).Value = candidato.partido.ToString();
+                plan1.Cell(linhaLivre, 6).Value = 0.ToString();
+                pasta.Save();
                 lista_Candidato.Add(candidato);
                 Atualizar_Lista();
                 Limpar_Campos();

@@ -23,5 +23,11 @@ namespace Atividade_Final
             Form_Cadastrar_Candidato form = new Form_Cadastrar_Candidato();
             form.ShowDialog();
         }
+
+        private void bt_Votacao_Interativa_Click(object sender, EventArgs e)
+        {
+            Form_Votacao_Interativa form = new Form_Votacao_Interativa();
+            form.ShowDialog();
+        }
     }
 }
